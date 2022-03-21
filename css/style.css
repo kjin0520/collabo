@@ -5,6 +5,12 @@ body {
 }
 .header {
   border-bottom: 2px solid red;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation li {
+  display: inline-block;
 }
 .container {
   width: 1200px;
