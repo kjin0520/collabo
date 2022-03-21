@@ -1,10 +1,12 @@
 @charset "utf-8";
 
-body {
+body { 
   background-color: #eaeaea;
 }
 .header {
   border-bottom: 2px solid red;
+  display: flex;
+  justify-content: space-between;
 }
 .container {
   width: 1200px;
@@ -15,4 +17,8 @@ body {
   background: #ccc;
   text-align: center;
   margin-top: 100px;
+}
+
+ul, li {
+  list-style: none;
 }
